@@ -1,0 +1,69 @@
+\contentsline {chapter}{Acknowledgements}{iii}{dummy.1}
+\vspace {1em}
+\contentsline {chapter}{Executive Summary}{v}{dummy.2}
+\contentsline {chapter}{List of Figures}{xi}{dummy.4}
+\contentsline {chapter}{List of Tables}{xiii}{dummy.6}
+\contentsline {chapter}{Symbols}{xv}{dummy.8}
+\vspace {2em}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.11}
+\contentsline {section}{\numberline {1.1}General introduction}{1}{section.12}
+\contentsline {section}{\numberline {1.2}Problem Statement}{2}{section.13}
+\contentsline {section}{\numberline {1.3}Objectives of Research}{6}{section.16}
+\contentsline {section}{\numberline {1.4}Scope of Research}{7}{section.17}
+\contentsline {section}{\numberline {1.5}Expected Contribution}{7}{section.18}
+\contentsline {chapter}{\numberline {2}Infrastructure Management System}{9}{chapter.19}
+\contentsline {section}{\numberline {2.1}General introduction}{9}{section.20}
+\contentsline {subsection}{\numberline {2.1.1}Characteristics of Monitoring Data}{14}{subsection.24}
+\contentsline {section}{\numberline {2.2}Deterioration Hazard Model}{15}{section.25}
+\contentsline {subsection}{\numberline {2.2.1}Deterioration Process and Rating Index}{15}{subsection.26}
+\contentsline {subsection}{\numberline {2.2.2}Markov Transition Probability}{18}{subsection.33}
+\contentsline {subsection}{\numberline {2.2.3}Exponential Hazard Model}{19}{subsection.34}
+\contentsline {subsubsection}{\numberline {2.2.3.1}The Hierarchical Hazard Model Formulation}{25}{subsubsection.54}
+\contentsline {subsection}{\numberline {2.2.4}Bayesian estimation and its prior subjective information}{27}{subsection.58}
+\contentsline {section}{\numberline {2.3}Example of Empirical Application to Infrastructure Asset Management}{28}{section.60}
+\contentsline {chapter}{\numberline {3}A Multi-stage Weibull Hazard Model with Tunnel Application}{31}{chapter.61}
+\contentsline {section}{\numberline {3.1}General introduction}{31}{section.62}
+\contentsline {section}{\numberline {3.2}Formulation of the Model}{32}{section.63}
+\contentsline {subsection}{\numberline {3.2.1}Deterioration State Probability}{32}{subsection.64}
+\contentsline {subsection}{\numberline {3.2.2}Simultaneous Occurrence Probability of Condition State at Two or More Times}{33}{subsection.68}
+\contentsline {subsection}{\numberline {3.2.3}Hazard Model Estimation}{35}{subsection.76}
+\contentsline {chapter}{\numberline {4}A Hidden Markov Deterioration Model with Measurement Errors}{39}{chapter.83}
+\contentsline {section}{\numberline {4.1}General introduction}{39}{section.84}
+\contentsline {subsection}{\numberline {4.1.1}The process of deterioration in hidden Markov hazard model}{40}{subsection.86}
+\contentsline {subsection}{\numberline {4.1.2}Gibbs sampling}{44}{subsection.95}
+\contentsline {subsection}{\numberline {4.1.3}Posterior distribution statistic}{45}{subsection.96}
+\contentsline {section}{\numberline {4.2}Empirical application}{48}{section.105}
+\contentsline {subsection}{\numberline {4.2.1}Overview}{48}{subsection.106}
+\contentsline {subsection}{\numberline {4.2.2}Estimation results}{49}{subsection.109}
+\contentsline {subsection}{\numberline {4.2.3}Simulation of the reproduced database}{51}{subsection.115}
+\contentsline {chapter}{\numberline {5}Time-dependent Repair Strategy}{53}{chapter.116}
+\contentsline {section}{\numberline {5.1}General introduction}{53}{section.117}
+\contentsline {section}{\numberline {5.2}Pre-assumption of the Model}{55}{section.118}
+\contentsline {section}{\numberline {5.3}Deterioration Process}{55}{section.119}
+\contentsline {subsection}{\numberline {5.3.1}Estimation Results}{56}{subsection.120}
+\contentsline {subsubsection}{\numberline {5.3.1.1}Weibull's parameters and survival probability}{56}{subsubsection.121}
+\contentsline {chapter}{\numberline {6}Mixture Hazard Model and Benchmarking Approach}{61}{chapter.129}
+\contentsline {section}{\numberline {6.1}General introduction}{61}{section.130}
+\contentsline {section}{\numberline {6.2}Heterogeneity and Sampling Population}{62}{section.131}
+\contentsline {subsection}{\numberline {6.2.1}Likelihood estimation approach}{63}{subsection.132}
+\contentsline {subsubsection}{\numberline {6.2.1.1}Parametric estimation approach}{63}{subsubsection.133}
+\contentsline {section}{\numberline {6.3}Empirical study}{65}{section.137}
+\contentsline {subsection}{\numberline {6.3.1}Overview of empirical study}{65}{subsection.138}
+\contentsline {subsection}{\numberline {6.3.2}Estimation results}{66}{subsection.141}
+\contentsline {subsubsection}{\numberline {6.3.2.1}Cost Evaluation}{70}{subsubsection.155}
+\contentsline {section}{\numberline {6.4}Summary and Recommendations}{71}{section.157}
+\contentsline {section}{\numberline {6.5}General introduction}{73}{section.158}
+\contentsline {section}{\numberline {6.6}Heterogeneity and Sampling Population}{74}{section.159}
+\contentsline {subsection}{\numberline {6.6.1}Likelihood estimation approach}{75}{subsection.160}
+\contentsline {subsubsection}{\numberline {6.6.1.1}Parametric estimation approach}{75}{subsubsection.161}
+\contentsline {section}{\numberline {6.7}Empirical study}{76}{section.165}
+\contentsline {subsection}{\numberline {6.7.1}Overview of empirical study}{76}{subsection.166}
+\contentsline {subsection}{\numberline {6.7.2}Estimation results}{79}{subsection.169}
+\contentsline {subsubsection}{\numberline {6.7.2.1}Cost Evaluation}{82}{subsubsection.183}
+\contentsline {section}{\numberline {6.8}Summary and Recommendations}{83}{section.185}
+\contentsline {chapter}{\numberline {7}Conclusions}{87}{chapter.186}
+\contentsline {section}{\numberline {7.1}A Brief Summary}{87}{section.187}
+\vspace {2em}
+\contentsline {chapter}{\numberline {A}Appendix A}{89}{appendix.188}
+\vspace {2em}
+\contentsline {chapter}{Bibliography}{91}{dummy.191}

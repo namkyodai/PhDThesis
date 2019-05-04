@@ -1,0 +1,65 @@
+% Appendix A
+
+\chapter{Appendix A}
+\lhead{Appendix A. \emph{Estimation Method for LCC}}
+\label{Appendix A}
+Solution to Gamma function in the equation of life cycle cost $J(0,z)$
+\begin{eqnarray}
+&& J(0:z)= \frac{(c+I)\Gamma(z)+I \Lambda(z)}{1-\Gamma(z)-\Lambda(z)} \label{a1}
+\end{eqnarray}
+Where $\Gamma(z)$ and $\Lambda(z)$ functions are defined as follow (without considering the risk factor since it is not of neccessity to represent for general calculation):
+\begin{eqnarray}
+&& \Gamma(z)=\int_0^{z} f(t)\exp(-\rho t)dt \nonumber \\
+&& \hspace{5mm}= \int_0^z \alpha m\tau^{m-1}\exp(-\alpha \tau^m-\rho t)dt \label{gamma1}\\
+&& \Lambda(z)= \tilde{F}(z) \exp(-\rho z)  \nonumber \\
+&& \hspace{5mm} =\exp(-\alpha z^m-\rho z)  \label{alpha1}
+\end{eqnarray}
+Gamma function in equation (\ref{gamma1}) can be extended in the following way
+\begin{eqnarray}
+\Gamma(z)= \int_0^z (\alpha m\tau^{m-1}+\rho-\rho)\exp(-\alpha \tau^m-\rho t)dt \label{gamma11}\\
+ \Leftrightarrow  - \int\limits_0^z {\exp ( - \alpha t^m  - \rho t)d( - \alpha t^m  - \rho t)}\nonumber \\ 
+- \rho \int\limits_0^z {\exp ( - \alpha t^m  - \rho t)dt}\nonumber  \\ 
+ = 1 - \Lambda (z) - \rho \int\limits_0^Z {\exp ( - \alpha t^m  - \rho t)dt} \label{gamma2}
+\end{eqnarray}
+The denominator in equation (\ref{a1}) becomes
+\begin{eqnarray}
+1 - \Lambda (z) - \Gamma (z) = \rho \int\limits_0^z {\exp ( - \alpha t^m  - \rho t)dt} \label{deno} 
+\end{eqnarray}
+Subtitute equations (\ref{gamma2}) and (\ref{deno}) into (\ref{a1}), following results are obtained
+\begin{eqnarray}
+J(0,z) = \frac{{(C + I)\left[ {\Gamma (z) + \Lambda (z) - 1} \right] + C + I - C\Lambda (z)}}{{1 - \Lambda (z) - \Gamma (z)}} \label{a2}\\
+=\frac{{C + I - C\Lambda (z)}}{{\rho \int\limits_0^z {\Lambda (t)dt} }} - (C + I) \label{a3}
+\end{eqnarray}
+Here, we have to solve the integration of function $\Lambda (z)$. The general form of expanding the integration into following discrete series will be accepted.
+\begin{eqnarray}
+I_k  = \int\limits_0^{kdt} {f(x)dx} 
+\end{eqnarray}
+Here, $k$ is number of iteration and $dt$ is the very small amount of time. For example, value of $d$ can becomes $d=0.01$ or $0.001$ or even smaller. 
+\begin{eqnarray}
+I_{k + 1}  = \int\limits_0^{(k + 1)dt} {f(x)dx} \\
+=I_k  + \int\limits_{k.dt}^{(k + 1)dt} {f(x)dx} \\
+= I_k  + \frac{{[f(kdt) + f\{ (k + 1)dt\} ]dt}}{2} \label{i1}
+\end{eqnarray}
+To this point, the value of integration can be easily estimated by numerical calculation. We subtitute equation (\ref{a3}) and use Newton method to estimate for the minimum value of $J(0,Z)$ with respect to the increasing number of year $Z$.
+
+Beside this method, the Simpson rule for solving integration can also be applied. However, a comparison with various small values of $d$ proves that the above method is sufficient enough in satisfying the objective of chapter \ref{Chapter5}.
+
+%First derivative of likelihood function with respect to $\alpha$ and $m$
+%\begin{eqnarray}
+%\frac{{\partial \ln \ell (\alpha ,m:t_s )}}{{\partial \alpha }} = \sum\limits_s^S {\left[ {(1 - \delta _s )( - t_s^m ) + \delta _s \left\{ {\frac{1}{\alpha } - t_s^m } \right\}} \right]}  = \sum\limits_s^S {\delta _s \frac{1}{\alpha } - t_s^m } 
+%\end{eqnarray}
+%\begin{eqnarray}
+%\begin{array}{l}
+%\frac{{\partial \ln \ell (\alpha ,m:t_s )}}{{\partial m}} = \sum\limits_s^S {\left[ {(1 - \delta _s )( - mt_s^{m - 1} ) + \delta _s \left\{ {\frac{1}{m} + \ln t_s  - \alpha mt_s^{m - 1} } \right\}} \right]}  \\ 
+%  = \sum\limits_s^S {\frac{{\delta _s }}{m} + \delta _s \ln t_s  - \alpha mt_s^{m - 1} }  \\ 
+% \end{array}
+%\end{eqnarray}
+
+%First derivative of likelihood function with respect to $\alpha$ and $m$
+%\begin{eqnarray}
+%&&\frac{{\partial \ln \ell (\alpha ,m:t_s )}}{{\partial \alpha \partial \alpha }} = \sum\limits_s^S { - \delta _s \frac{1}{{\alpha ^2 }}} 
+%\\
+%&&\frac{{\partial \ln \ell (\alpha ,m:t_s )}}{{\partial \alpha \partial m}} = \frac{{\partial \ln \ell (\alpha ,m:t_s )}}{{\partial m\partial \alpha }} = \sum\limits_s^S { - mt_s^{m - 1} } 
+%\\
+%&&\frac{{\partial \ln \ell (\alpha ,m:t_s )}}{{\partial m\partial m}} = \sum\limits_s^S {\left[ { - \alpha \left\{ {t^{m - 1}  + m(m - 1)t^{m - 1} } \right\} - \frac{{\delta _s }}{{m^2 }}} \right]} 
+%\end{eqnarray}
