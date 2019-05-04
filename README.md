@@ -7,11 +7,10 @@ Kyoto University, Japan, April-2009.
 
 In respect of [Prof. Kiyoshi Kobayashi](https://en.wikipedia.org/wiki/Kiyoshi_Kobayashi_(professor)) of [Kyoto University](https://www.kyoto-u.ac.jp/en/)
 
-Inline-style: 
-![alt text](https://github.com/namkyodai/PhDThesis/blob/master/Photo-0054.jpg "My Desk")
+
+![](https://github.com/namkyodai/PhDThesis/blob/master/Photo-0054.jpg|width=100 "My Desk")
 
 
 
-Inline-style: 
 ![alt text](https://github.com/namkyodai/PhDThesis/blob/master/farewellparty2.jpg "Graduation Farewell")
 
